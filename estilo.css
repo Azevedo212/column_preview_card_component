@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+body {
+    background-color: white;
+}
+
+#todo {
+    width: 60%;
+    height: auto;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10%;
+   
+}
+#ladoE { 
+    width: 30%;
+    height: auto;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+#meio { 
+    width: 30%;
+    height: auto;
+    background-color: hsl(184, 100%, 22%);
+}
+#ladoD { 
+    width: 30%;
+    height: auto;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.icons {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.tittle {
+    font-family: 'Big Shoulders Display';
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.corpo {
+    width: 60%;
+    color: rgb(224, 224, 224);
+    font-family: 'Lexend Deca';
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+#botao1{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Lexend Deca';
+    color: hsl(31, 77%, 52%);
+
+}
+#botao2{
+    margin-top: 80px;
+    margin-left: 20%;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Lexend Deca';
+    color: hsl(184, 100%, 22%);
+
+}
+#botao3{
+    margin-top: 50px;
+    margin-left: 20%;    
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Lexend Deca';
+    color: hsl(179, 100%, 13%);
+
+}
+@media screen and (max-width: 1000px) {
+    #todo {
+        display: block;
+    }
+    #ladoE {     
+        width: 80%; 
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #meio {
+        width: 80%;
+    }
+    #ladoD {
+        width: 80%; 
+        border-radius: 0px 0px 10px 10px;
+    }
+    #botao1{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-left: 20%;
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Lexend Deca';
+        color: hsl(31, 77%, 52%);
+    
+    }
+    #botao2{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-left: 20%;
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Lexend Deca';
+        color: hsl(184, 100%, 22%);
+    
+    }
+    #botao3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 20%;    
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 50px;
+        font-family: 'Lexend Deca';
+        color: hsl(179, 100%, 13%);
+    
+    }
+}
